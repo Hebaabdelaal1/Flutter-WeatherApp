@@ -43,7 +43,7 @@ class _Screen2State extends State<Screen2> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFF004AAD), // الأزرق الغامق
+      backgroundColor: Color(0xFF004AAD), 
       body: _isLoading
           ? Center(child: CircularProgressIndicator(color: Colors.white))
           : _weatherData == null
